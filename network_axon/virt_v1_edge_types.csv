@@ -1,0 +1,3 @@
+edge_type_id target_query source_query dynamics_params model_template delay
+100 ei=='e' * AMPA_ExcToExc.json exp2syn 2.0
+101 ei=='i' * AMPA_ExcToInh.json exp2syn 2.0
