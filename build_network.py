@@ -82,13 +82,17 @@ def build_network(axon_type, rng_seed=None):
             "afferent_section_pos",
             "afferent_swc_id",
             "afferent_swc_pos",
+            "afferent_section_xcoords",
+            "afferent_section_ycoords",
+            "afferent_section_zcoords",
         ],
         rule=rand_syn_locations,
         rule_params={
             "sections": ["somatic", "basal", "apical"],
             "distance_range": [0.0, 1.0e20],
+            "return_coords": True,
         },
-        dtypes=[int, float, int, float],
+        dtypes=[int, float, int, float, float, float, float],
     )
 
     cm = virt.add_edges(
@@ -106,13 +110,17 @@ def build_network(axon_type, rng_seed=None):
             "afferent_section_pos",
             "afferent_swc_id",
             "afferent_swc_pos",
+            "afferent_section_xcoords",
+            "afferent_section_ycoords",
+            "afferent_section_zcoords",
         ],
         rule=rand_syn_locations,
         rule_params={
             "sections": ["somatic", "basal", "apical"],
             "distance_range": [0.0, 1.0e20],
+            "return_coords": True,
         },
-        dtypes=[int, float, int, float],
+        dtypes=[int, float, int, float, float, float, float],
     )
 
     virt.build()

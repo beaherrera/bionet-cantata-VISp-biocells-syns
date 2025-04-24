@@ -1,0 +1,161 @@
+LAYER VisL1
+MODEL i1Htr3a
+components/morphologies/Htr3a-Cre_NO152_Ai14-185347.03.02.01_492100857_m.swc False
+components/morphologies/Htr3a-Cre_NO152_Ai14-192819.04.02.01_491119743_m.swc True
+
+LAYER VisL23
+MODEL e23Cux2
+components/morphologies/Cux2-CreERT2_Ai14-211772.05.02.01_496085150_m.swc False
+
+MODEL i23Htr3a
+components/morphologies/Htr3a-Cre_NO152_Ai14-175482.03.02.01_491119419_m.swc False
+components/morphologies/Htr3a-Cre_NO152_Ai14-178910.03.01.01_491120333_m.swc True
+components/morphologies/Htr3a-Cre_NO152_Ai14-178904.04.01.01_491120305_m.swc True
+components/morphologies/Htr3a-Cre_NO152_Ai14-182494.05.01.01_492100793_m.swc False
+components/morphologies/Htr3a-Cre_NO152_Ai14-182497.03.01.01_491119305_m.swc False
+components/morphologies/Htr3a-Cre_NO152_Ai14-185555.03.01.01_491119960_m.swc True
+components/morphologies/Htr3a-Cre_NO152_Ai14-185553.05.01.01_491119938_m.swc True
+components/morphologies/Htr3a-Cre_NO152_Ai14-195039.04.02.01_491119581_m.swc True
+
+MODEL i23Pvalb
+components/morphologies/Pvalb-IRES-Cre_Ai14-178310.02.01.01_513557093_m.swc False
+components/morphologies/Pvalb-IRES-Cre_Ai14-201791.05.01.01_496079599_m.swc True
+components/morphologies/Pvalb-IRES-Cre_Ai14-212440.05.02.01_500961631_m.swc False
+
+MODEL i23Sst
+components/morphologies/Sst-IRES-Cre_Ai14-173196.03.01.01_491770223_m.swc False
+components/morphologies/Sst-IRES-Cre_Ai14-182533.03.01.01_491770708_m.swc True
+components/morphologies/Sst-IRES-Cre_Ai14-183332.06.02.01_495889919_m.swc False
+components/morphologies/Sst-IRES-Cre_Ai14-188740.03.02.01_491119369_m.swc False
+
+LAYER VisL4
+MODEL e4Nr5a1
+components/morphologies/Nr5a1-Cre_Ai14-169248.04.02.01_491253825_m.swc True
+components/morphologies/Nr5a1-Cre_Ai14-169250.03.02.01_491119754_m.swc True
+components/morphologies/Nr5a1-Cre_Ai14-177332.03.01.01_491120166_m.swc False
+components/morphologies/Nr5a1-Cre_Ai14-177334.05.01.01_491459171_m.swc True
+components/morphologies/Nr5a1-Cre_Ai14-177834.02.01.01_491458970_m.swc True
+components/morphologies/Nr5a1-Cre_Ai14-178521.04.02.01_492100683_m.swc True
+components/morphologies/Nr5a1-Cre_Ai14-184650.06.01.01_491392945_m.swc True
+components/morphologies/Nr5a1-Cre_Ai14-187779.04.01.01_491771365_m.swc True
+components/morphologies/Nr5a1-Cre_Ai14-187780.03.02.01_491253858_m.swc True
+
+MODEL e4Rorb
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-168052.03.02.01_491770140_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-172651.01.01.01_491770168_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-176684.04.01.01_491771001_m.swc False
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-181710.05.02.01_491771275_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-188712.05.02.01_495889950_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-194017.03.01.01_491770945_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-197330.06.01.01_491770970_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-197352.06.01.01_491253869_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-201967.03.01.01_496123870_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-204764.04.01.01_496001039_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-206927.04.01.01_496253700_m.swc True
+
+MODEL e4Scnn1a
+components/morphologies/Scnn1a-Tg3-Cre_Ai14-168093.03.01.01_491770152_m.swc True
+components/morphologies/Scnn1a-Tg2-Cre_Ai14-176958.04.01.01_491771013_m.swc True
+components/morphologies/Scnn1a-Tg3-Cre_Ai14-177300.01.02.01_491771068_m.swc True
+components/morphologies/Scnn1a-Tg3-Cre_Ai14-180214.05.01.01_491253802_m.swc True
+components/morphologies/Scnn1a-Tg3-Cre_Ai14-187849.05.02.01_491119823_m.swc True
+components/morphologies/Scnn1a-Tg3-Cre_Ai14_IVSCC_-187852.04.02.01_484775243_m.swc True
+
+MODEL e4other
+components/morphologies/Slc17a6-IRES-Cre_Ai14-190263.06.01.01_491771398_m.swc True
+components/morphologies/Cux2-CreERT2_Ai14-198017.05.01.01_496121314_m.swc True
+components/morphologies/Cux2-CreERT2_Ai14-205530.03.02.01_500961528_m.swc True
+components/morphologies/Cux2-CreERT2_Ai14-205221.03.01.01_500961566_m.swc True
+components/morphologies/Cux2-CreERT2_Ai14-211771.03.01.01_496123846_m.swc True
+
+MODEL i4Htr3a
+components/morphologies/Htr3a-Cre_NO152_Ai14-182004.05.02.01_491120373_m.swc False
+
+MODEL i4Pvalb
+components/morphologies/Pvalb-IRES-Cre_Ai14-176848.03.01.01_491119484_m.swc False
+components/morphologies/Pvalb-IRES-Cre_Ai14-212813.03.01.01_496163999_m.swc True
+
+MODEL i4Sst
+components/morphologies/Sst-IRES-Cre_Ai14-167638.05.02.01_501934125_m.swc False
+components/morphologies/Sst-IRES-Cre_Ai14-181378.05.01.01_491120060_m.swc False
+
+LAYER VisL5
+MODEL e5Rbp4
+components/morphologies/Rbp4-Cre_KL100_Ai14-180747.06.01.01_495335491_m.swc True
+components/morphologies/Rbp4-Cre_KL100_Ai14-180747.06.02.01_492413283_m.swc True
+components/morphologies/Rbp4-Cre_KL100_Ai14-180748.06.01.01_495335436_m.swc True
+components/morphologies/Rbp4-Cre_KL100_Ai14-180748.02.02.01_491771193_m.swc True
+components/morphologies/Rbp4-Cre_KL100_Ai14-203498.04.02.01_496001061_m.swc True
+components/morphologies/Rbp4-Cre_KL100_Ai14-204744.04.01.01_496123897_m.swc True
+components/morphologies/Rbp4-Cre_KL100_Ai14-204745.05.01.01_496001050_m.swc True
+components/morphologies/Rbp4-Cre_KL100_Ai14-205726.03.02.01_496001094_m.swc True
+components/morphologies/Rbp4-Cre_KL100_Ai14-205727.04.02.01_496085260_m.swc True
+components/morphologies/Rbp4-Cre_KL100_Ai14-211531.03.01.01_496085294_m.swc True
+
+MODEL e5noRbp4
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-168053.05.01.01_491392788_m.swc True
+components/morphologies/Scnn1a-Tg3-Cre_Ai14-168093.03.02.01_491119592_m.swc True
+components/morphologies/Scnn1a-Tg3-Cre_Ai14-170426.03.01.01_491392845_m.swc True
+components/morphologies/Scnn1a-Tg3-Cre_Ai14-172530.06.01.01_492413272_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-172651.04.01.01_491458287_m.swc True
+components/morphologies/Scnn1a-Tg2-Cre_Ai14-176961.06.02.01_491253847_m.swc True
+components/morphologies/Scnn1a-Tg2-Cre_Ai14-176962.05.01.01_495335447_m.swc True
+components/morphologies/Scnn1a-Tg3-Cre_Ai14-177297.05.02.01_495335458_m.swc True
+components/morphologies/Scnn1a-Tg3-Cre_Ai14-177297.06.01.01_491120155_m.swc True
+components/morphologies/Scnn1a-Tg3-Cre_Ai14-180214.05.02.01_492413246_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-181715.04.01.01_491392833_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-187416.05.01.01_491796267_m.swc True
+components/morphologies/Scnn1a-Tg3-Cre_Ai14-187849.06.02.01_491392799_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-197332.04.02.01_492100936_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-197353.06.02.01_496079587_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-197851.04.01.01_491770985_m.swc True
+components/morphologies/Rorb-IRES2-Cre-D_Ai14-197851.05.02.01_492413372_m.swc True
+
+MODEL i5Htr3a
+components/morphologies/Htr3a-Cre_NO152_Ai14-192821.05.01.01_491771409_m.swc False
+components/morphologies/Htr3a-Cre_NO152_Ai14-198254.03.02.01_491119526_m.swc False
+components/morphologies/Htr3a-Cre_NO152_Ai14-200434.06.02.01_513556274_m.swc False
+components/morphologies/Htr3a-Cre_NO152_Ai14-200442.05.02.01_495337161_m.swc False
+
+MODEL i5Pvalb
+components/morphologies/Pvalb-IRES-Cre_Ai14-165874.04.02.01_491119570_m.swc True
+components/morphologies/Pvalb-IRES-Cre_Ai14-171555.06.01.01_496722847_m.swc True
+components/morphologies/Pvalb-IRES-Cre_Ai14-176852.05.02.01_513557613_m.swc False
+components/morphologies/Pvalb-IRES-Cre_Ai14-177452.03.02.01_491119336_m.swc False
+components/morphologies/Pvalb-IRES-Cre_Ai14-177452.03.01.01_491120251_m.swc True
+components/morphologies/Pvalb-IRES-Cre_Ai14-180633.05.01.01_491119234_m.swc False
+components/morphologies/Pvalb-IRES-Cre_Ai14-180633.04.01.01_491771159_m.swc True
+components/morphologies/Pvalb-IRES-Cre_Ai14-195045.05.02.01_491119688_m.swc True
+components/morphologies/Pvalb-IRES-Cre_Ai14-212809.03.01.01_500961658_m.swc True
+
+MODEL i5Sst
+components/morphologies/Sst-IRES-Cre_Ai14-172534.06.01.01_491770330_m.swc False
+components/morphologies/Sst-IRES-Cre_Ai14-165865.03.01.01_491119181_m.swc True
+components/morphologies/Sst-IRES-Cre_Ai14-184927.03.02.01_492100832_m.swc True
+components/morphologies/Sst-IRES-Cre_Ai14-192340.03.01.01_491119721_m.swc False
+components/morphologies/Sst-IRES-Cre_Ai14-199390.05.01.01_492101025_m.swc True
+
+LAYER VisL6
+MODEL e6Ntsr1
+components/morphologies/Ntsr1-Cre_Ai14-171080.04.02.01_492413307_m.swc True
+components/morphologies/Ntsr1-Cre_Ai14-180761.02.01.01_491459160_m.swc True
+components/morphologies/Ntsr1-Cre_Ai14-181184.05.02.01_491392868_m.swc True
+components/morphologies/Ntsr1-Cre_Ai14-181184.05.01.01_492413318_m.swc True
+components/morphologies/Ntsr1-Cre_Ai14-181184.02.02.01_491771181_m.swc True
+
+MODEL i6Htr3a
+components/morphologies/Htr3a-Cre_NO152_Ai14-198254.03.02.01_491119526_m.swc False
+components/morphologies/Htr3a-Cre_NO152_Ai14-200434.06.02.01_513556274_m.swc False
+
+MODEL i6Pvalb
+components/morphologies/Pvalb-IRES-Cre_Ai14-172101.05.02.01_491119710_m.swc False
+components/morphologies/Pvalb-IRES-Cre_Ai14-180634.04.01.01_495335480_m.swc False
+components/morphologies/Pvalb-IRES-Cre_Ai14-191322.04.02.01_491119269_m.swc False
+components/morphologies/Pvalb-IRES-Cre_Ai14-195049.06.01.01_491119604_m.swc False
+
+MODEL i6Sst
+components/morphologies/Sst-IRES-Cre_Ai14-167636.04.01.01_491119515_m.swc False
+components/morphologies/Sst-IRES-Cre_Ai14-182533.05.01.01_491770886_m.swc False
+components/morphologies/Sst-IRES-Cre_Ai14-187427.04.01.01_491119894_m.swc True
+components/morphologies/Sst-IRES-Cre_Ai14-188741.06.02.01_491771387_m.swc True
+
