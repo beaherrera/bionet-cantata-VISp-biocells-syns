@@ -31,3 +31,6 @@ output_*/*
 cantata-*/*
 checking_sim_cbor_file.dat
 sim_cbor_swc.out
+error.err
+out_1.out
+out.out
