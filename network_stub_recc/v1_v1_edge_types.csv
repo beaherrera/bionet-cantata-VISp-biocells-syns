@@ -1,0 +1,5 @@
+edge_type_id target_query source_query model_template delay dynamics_params
+100 ei=='i' ei=='i' exp2syn 2.0 GABA_InhToInh.json
+101 ei=='e' ei=='i' exp2syn 2.0 GABA_InhToExc.json
+102 ei=='i' ei=='e' exp2syn 2.0 AMPA_ExcToInh.json
+103 ei=='e' ei=='e' exp2syn 2.0 AMPA_ExcToExc.json

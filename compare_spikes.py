@@ -49,8 +49,8 @@ for add_config in add_configs:
 n_sims = 2 + len(add_spikes)
 
 if args.names is None:
-    names = ["bmtk"] * (n_sims - 1)
-    names.append("arbor")
+    names = ["BMTK"] * (n_sims - 1)
+    names.append("Arbor")
 else:
     names = args.names.split(",")
 
@@ -116,7 +116,7 @@ for pop in populations:
     )
     sim_time_s = (tmax - tmin) / 1000.0
 
-    fig, ax = plt.subplots(n_sims, 1, figsize=(15, 4 + n_sims))
+    fig, ax = plt.subplots(n_sims, 1, figsize=(6, 4 + n_sims))
     print("boo")
     if "node_type_id" in sub_spikes_bmtk.columns:
         print("HERE")
@@ -208,6 +208,19 @@ for pop in populations:
     else:
         ax[0].scatter(sub_spikes_bmtk["timestamps"], sub_spikes_bmtk["node_ids"])
         ax[1].scatter(sub_spikes_arbor["time"], sub_spikes_arbor["gid"])
+
+        i = 0
+        xticks_labels = ax[i].get_xticklabels()
+        ax[i].set_xticks(xticks_labels, fontsize=12)
+        yticks_labels = ax[i].get_yticklabels()
+        ax[i].set_yticks(yticks_labels, fontsize=14)
+
+        i = 1
+        xticks_labels = ax[i].get_xticklabels()
+        ax[i].set_xticks(xticks_labels, fontsize=14)
+        yticks_labels = ax[i].get_yticklabels()
+        ax[i].set_yticks(yticks_labels, fontsize=14)
+
         firing_rates = None
 
     # Make sure both plots have same x-axis
@@ -223,14 +236,17 @@ for pop in populations:
         ax[i].set_ylim([ymin, ymax])
 
     for i in range(ax_idx + 1):
-        ax[i].set_ylabel(names[i])
+        ax[i].set_ylabel(names[i], fontsize=14)
+
+        if i == ax_idx:
+            ax[i].set_xlabel("Time (ms)", fontsize=14)
 
     # plt.tight_layout()
     if args.save_as is not None:
-        fig.savefig(f"figs/raster.{args.save_as}.png")
+        fig.savefig(f"figs/raster.{args.save_as}.png", dpi=600, bbox_inches="tight")
 
     if firing_rates is not None:
-        fig, ax = plt.subplots(1, 1, figsize=(15, 4 + n_sims))
+        fig, ax = plt.subplots(1, 1, figsize=(8, 4 + n_sims))
         pos_beg = 1
         labels = []
         label_positions = []
@@ -240,23 +256,26 @@ for pop in populations:
             ax.bar(
                 positions,
                 frs,
-                color=["b", "r", "g", "k", "y"],
+                color=["tab:blue", "tab:orange"],  # ["b", "r", "g", "k", "y"],
                 label=names if pos_beg == 1 else None,
             )
-            ax.errorbar(positions, frs, yerr=sems[name], fmt=".")
+            ax.errorbar(positions, frs, yerr=sems[name], fmt=".", ecolor="black")
             labels.append(labels_lu[name])
             # labels.append(name)
             label_positions.append(pos_beg + (n_sims - 1) / 2)
             pos_beg = pos_end + 1
 
         ax.set_xticks(label_positions)
-        ax.set_xticklabels(labels, rotation=45)
-        ax.set_ylabel("firing rate (Hz)")
-        ax.legend()
+        ax.set_xticklabels(labels, rotation=45, fontsize=12)
+        ax.set_ylabel("Firing Rate (Hz)", fontsize=14)
+        ax.set_xlabel("Node Type", fontsize=14)
+        ax.legend(fontsize=12)
 
         # plt.tight_layout()
         if args.save_as is not None:
-            fig.savefig(f"figs/firing_rates.{args.save_as}.png")
+            fig.savefig(
+                f"figs/firing_rates.{args.save_as}.png", dpi=600, bbox_inches="tight"
+            )
 
 
 # pd.set_option('display.max_rows', None)

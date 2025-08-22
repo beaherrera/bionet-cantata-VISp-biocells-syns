@@ -1,0 +1,16 @@
+node_type_id model_template model_processing morphology pop_name model_type dynamics_params ei
+100 ctdb:Biophys1.hoc aibs_perisomatic Htr3a-Cre_NO152_Ai14-192819.04.02.01_491119743_m.swc i1Htr3a biophysical 478107198_fit.json i
+101 ctdb:Biophys1.hoc aibs_perisomatic Htr3a-Cre_NO152_Ai14-185553.05.01.01_491119938_m.swc i23Htr3a biophysical 475622793_fit.json i
+102 ctdb:Biophys1.hoc aibs_perisomatic Pvalb-IRES-Cre_Ai14-201791.05.01.01_496079599_m.swc i23Pvalb biophysical 484635029_fit.json i
+103 ctdb:Biophys1.hoc aibs_perisomatic Sst-IRES-Cre_Ai14-182533.03.01.01_491770708_m.swc i23Sst biophysical 473540161_fit.json i
+104 ctdb:Biophys1.hoc aibs_perisomatic Nr5a1-Cre_Ai14-177334.05.01.01_491459171_m.swc e4Nr5a1 biophysical 386049446_fit.json e
+105 ctdb:Biophys1.hoc aibs_perisomatic Rorb-IRES2-Cre-D_Ai14-204764.04.01.01_496001039_m.swc e4Rorb biophysical 485836906_fit.json e
+106 ctdb:Biophys1.hoc aibs_perisomatic Scnn1a-Tg3-Cre_Ai14-180214.05.01.01_491253802_m.swc e4Scnn1a biophysical 469798159_fit.json e
+107 ctdb:Biophys1.hoc aibs_perisomatic Cux2-CreERT2_Ai14-198017.05.01.01_496121314_m.swc e4other biophysical 483061182_fit.json e
+108 ctdb:Biophys1.hoc aibs_perisomatic Pvalb-IRES-Cre_Ai14-212813.03.01.01_496163999_m.swc i4Pvalb biophysical 487667205_fit.json i
+109 ctdb:Biophys1.hoc aibs_perisomatic Rbp4-Cre_KL100_Ai14-180747.06.01.01_495335491_m.swc e5Rbp4 biophysical 471129934_fit.json e
+110 ctdb:Biophys1.hoc aibs_perisomatic Rorb-IRES2-Cre-D_Ai14-197851.04.01.01_491770985_m.swc e5noRbp4 biophysical 480351780_fit.json e
+111 ctdb:Biophys1.hoc aibs_perisomatic Pvalb-IRES-Cre_Ai14-212809.03.01.01_500961658_m.swc i5Pvalb biophysical 486783119_fit.json i
+112 ctdb:Biophys1.hoc aibs_perisomatic Sst-IRES-Cre_Ai14-199390.05.01.01_492101025_m.swc i5Sst biophysical 482690728_fit.json i
+113 ctdb:Biophys1.hoc aibs_perisomatic Ntsr1-Cre_Ai14-181184.02.02.01_491771181_m.swc e6Ntsr1 biophysical 471819401_fit.json e
+114 ctdb:Biophys1.hoc aibs_perisomatic Sst-IRES-Cre_Ai14-188741.06.02.01_491771387_m.swc i6Sst biophysical 476754635_fit.json i
