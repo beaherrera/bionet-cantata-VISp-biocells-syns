@@ -27,8 +27,9 @@ figs*/*
 **/.coverage
 **/*.log
 **/*.pdf
-output_*/*
-cantata-*/*
+cantata-sim-Arbor-v0.11/
+cantata-sim-swc-loc/
+cantata-sim-xyc-syn-loc*/*
 checking_sim_cbor_file.dat
 sim_cbor_swc.out
 error.err
