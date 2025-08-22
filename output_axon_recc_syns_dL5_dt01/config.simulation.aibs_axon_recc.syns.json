@@ -1,0 +1,71 @@
+{
+  "run": {
+    "tstop": 3000.0,
+    "dt": 0.01,
+    "dL": 5.0,
+    "spike_threshold": -15,
+    "nsteps_block": 5000
+  },
+  "target_simulator": "NEURON",
+  "conditions": {
+    "celsius": 34.0,
+    "v_init": -80
+  },
+  "inputs": {
+    "virt_spikes": {
+      "input_type": "spikes",
+      "module": "sonata",
+      "input_file": "./inputs/virt_spikes.h5",
+      "node_set": "virt"
+    }
+  },
+  "output": {
+    "log_file": "./output_axon_recc_syns_dL5_dt01/log.txt",
+    "output_dir": "./output_axon_recc_syns_dL5_dt01",
+    "spikes_file": "./output_axon_recc_syns_dL5_dt01/spikes.h5",
+    "spikes_file_csv": "./output_axon_recc_syns_dL5_dt01/spikes.csv",
+    "spikes_sort_order": "time",
+    "overwrite_output_dir": true
+  },
+  "reports": {
+    "membrane_potential": {
+      "cells": {
+        "population": "v1"
+      },
+      "variable_name": "v",
+      "module": "membrane_report",
+      "sections": "soma"
+    }
+  },
+  "components": {
+    "morphologies_dir": "./components/morphologies",
+    "synaptic_models_dir": "./components/synaptic_models",
+    "mechanisms_dir": "./components/mechanisms",
+    "biophysical_neuron_models_dir": "./components/biophysical_neuron_templates/ctdb",
+    "point_neuron_models_dir": "./components/point_neuron_templates"
+  },
+  "networks": {
+    "nodes": [
+      {
+        "nodes_file": "./network_axon_recc/v1_nodes.h5",
+        "node_types_file": "./network_axon_recc/v1_node_types.csv"
+      },
+      {
+        "nodes_file": "./network_axon_recc/virt_nodes.h5",
+        "node_types_file": "./network_axon_recc/virt_node_types.csv"
+      }
+    ],
+    "edges": [
+      {
+        "edges_file": "./network_axon_recc/virt_v1_edges.h5",
+        "edge_types_file": "./network_axon_recc/virt_v1_edge_types.csv"
+      },
+      {
+        "edges_file": "./network_axon_recc/v1_v1_edges.h5",
+        "edge_types_file": "./network_axon_recc/v1_v1_edge_types.csv"
+      }
+    ]
+  },
+  "config_path": "/Users/beaherrera/Documents/Python-scripts/arbor-bmtk/bionet-cantata-VISp-biocells-syns/config.simulation.aibs_axon_recc.syns.json",
+  "config_dir": "/Users/beaherrera/Documents/Python-scripts/arbor-bmtk/bionet-cantata-VISp-biocells-syns"
+}
